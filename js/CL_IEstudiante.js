@@ -1,9 +1,9 @@
-export default class CL_IEstudiante {
+export default class Cl_IEstudiante {
     readname() {
-        prompt("Ingresa tu nombre");
+        return prompt("Ingresa tu nombre");
     }
     readnotafinal() {
-        prompt("Ingresa tu nota final");
+        return prompt("Ingresa tu nota final");
     }
     showestudiante(n,nf,cl){
         return`
